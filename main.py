@@ -5,6 +5,7 @@ wsc = WikiSemanticCrawler(
     "https://en.wikipedia.org/wiki/Pikachu",
     "https://en.wikipedia.org/wiki/Python_(programming_language)"
 )
-links = wsc.find_best_path()
+scraped, path = wsc.find_best_path()
 
-print(links)
+print(f"Scraped {scraped} Wikis")
+print("Path:", "->".join(path))
