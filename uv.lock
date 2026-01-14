@@ -936,7 +936,7 @@ wheels = [
 ]
 
 [[package]]
-name = "wikiscrape"
+name = "wikisemanticcrawler"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

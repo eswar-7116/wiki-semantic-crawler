@@ -1,7 +1,7 @@
 [project]
-name = "wikiscrape"
+name = "WikiSemanticCrawler"
 version = "0.1.0"
-description = "Autonomous Wiki-racing via vector embeddings"
+description = "An autonomous Wikipedia navigation agent using Weighted A* Search and Transformer-based Sentence Embeddings to solve the Wiki Game."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
